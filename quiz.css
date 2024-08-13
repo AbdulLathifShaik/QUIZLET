@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ .sec1{
+        display: flex; 
+        background-color: rgb(169, 250, 223);
+    }
+.sec,img{
+        width: 50vw;
+        height: 100vh;
+}
+.head{
+     margin: 3rem;
+     padding: 10px;
+}
+.head a{
+        color: blueviolet;
+}
+a:hover{
+    color: blue;
+}
+.head a{
+    text-decoration: none;
+}
+.head ul{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.em {
+    display: flex;
+    flex-direction: column;
+}
+.em input:hover{
+    background-color: rgb(202, 173, 229);
+    color: black;
+}
+.em input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 5rem;
+    cursor: pointer;
+}
+.em span{
+    padding: 1rem;
+    margin-left: 18px;
+    font-size: 20px;
+}
+.em i{
+    position: relative;
+    top: 38px;
+    left: 9rem;
+    
+}
+.em .fa-facebook{
+    position: relative;
+    top: 38px;
+    left: 9rem;
+}
+.pm{
+    display: flex;
+    flex-direction: column;
+}
+.pm input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 5rem;
+    cursor: pointer;
+}
+.pm input:hover{
+   background-color: rgb(202, 173, 229);
+
+}
+.pm label{
+   padding: 10px;
+   font-size: 25px;
+}
+.pm p{
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+}
+.pm .for{
+    font-size: 20px ;
+    position: relative;
+    left: 20rem;
+    bottom: 2rem;
+}
+.pm button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 5rem;
+    cursor: pointer;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.pm button:hover{
+    background-color: rgb(87, 87, 240);
+    color: white;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.foot input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 5rem;
+    cursor: pointer;
+    
+}
+.foot input:hover{
+    background-color: rgb(202, 173, 229)
+}
+.foot .last{
+    font-size: 18px;
+}
+
+
+
+/* q.html */
+
+
+ .html2{
+    .sec2{
+        background-color: rgb(205, 171, 237);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .q,div{
+        border: 1px solid aqua;
+        background-color: rgb(169, 250, 223);
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 5%;
+        padding: 4rem;
+        border-radius: 5px;
+    }
+    .qdiv,label,input{
+        display: flex;
+        font-size: 20px;
+        padding-top: 1rem;
+    
+    }
+    
+    .quiz,h1{
+        color: rgb(209, 70, 188);
+        font-size: 40px;
+        font-weight: 90%;
+        
+    }
+    .c,input{
+       padding: 10px;
+       width: 140%;
+       border-radius: 5px;
+       font-size: 18px;
+       border: none;
+    }
+    input:hover{
+        background-color: beige;
+        cursor: pointer;
+    }
+    button{
+        padding: 12px;
+        width: 140%;
+        margin-top: 20px;
+        color: white;
+        background-color: blue;
+        font-size: 20px;
+        border: 1px solid blue;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color: rgb(86, 86, 233);
+    }
+    .sing,p{
+        font-weight: 700;
+        padding: 1rem;
+    }
+    .an{
+        font-weight:900;
+        font-size: 25px;
+        padding-left: 7px;
+        text-decoration: none;
+    }
+    .an:hover{
+        color: blue;
+    }  
+ }
